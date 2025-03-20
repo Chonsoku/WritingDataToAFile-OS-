@@ -21,7 +21,7 @@ while True:
         if command == "ОФС красавчик" or command == "Обычный Фанат Соника сигма" or command == "ОФС сигма" or command == "Обычный Фанат Соника красавчик":
             f = open("Записи данных.txt", 'w')
             f.write(f"{command}. Действительно... ОФС реально красавчик и лютый сигма 228 про")
-            os.startfile(r"C:\Users\macso\PycharmProjects\WritingDataToAFile(OS)\Записи данных.txt")
+            os.startfile(r"Записи данных.txt")
             f.close()
             print("Вы написали:'", command, "'. Все по факту. ОФС реально красавчик и лютый сигма 228 про'")
             print(str(" "))
@@ -31,7 +31,7 @@ while True:
         else:
             f = open("Записи данных.txt", 'w')
             f.write(command)
-            os.startfile(r"C:\Users\macso\PycharmProjects\WritingDataToAFile(OS)\Записи данных.txt")
+            os.startfile(r"Записи данных.txt")
             f.close()
             print("Вы написали:'", command, "',данные были записаны в файл 'Записи данных.txt'")
             print(str(" "))
